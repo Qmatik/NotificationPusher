@@ -15,6 +15,12 @@
             "homepage": "https://github.com/Ph3nol/NotificationPusher/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gl.dyvotech.com:composer-packages/laravel-huawei-push.git"
+        }
+    ],
     "require": {
         "php": ">=5.5",
 
@@ -23,7 +29,8 @@
         "symfony/process": "~2.3|~3.0|~4.0",
         "zendframework/zendservice-apple-apns": "~1.0",
         "zendframework/zendservice-google-gcm": "~2.1.1",
-        "doctrine/inflector": "^1.1"
+        "doctrine/inflector": "^1.1",
+        "n2boost/laravel-huawei-push": "dev-master"
     },
     "require-dev": {
         "atoum/atoum": "dev-master"
