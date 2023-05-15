@@ -26,23 +26,17 @@
         }
     ],
     "require": {
-        "php": ">=5.6",
-        "ext-ctype": "*",
-        "symfony/options-resolver": ">=2.3,<5",
-        "symfony/console": ">=2.3,<5",
-        "symfony/process": ">=2.3,<5",
-        "zendframework/zendservice-apple-apns": "~1.4",
-        "zendframework/zendservice-google-gcm": "~2.1",
-        "zendframework/zend-validator": "^2.12",
-        "doctrine/inflector": "~1.1",
-        "symfony/filesystem": ">=2.3,<5",
-        "symfony/debug": ">=2.3,<5"
+        "doctrine/inflector": "^1.1",
+        "n2boost/laravel-huawei-push": "dev-master",
+        "php": ">=5.5",
+        "symfony/console": "~2.3|~3.0|~4.0|~5.0",
+        "symfony/options-resolver": "~2.3|~3.0|~4.0|~5.0",
+        "symfony/process": "~2.3|~3.0|~4.0|~5.0",
+        "zendframework/zendservice-apple-apns": "~1.0",
+        "zendframework/zendservice-google-gcm": "~2.1.1"
     },
     "require-dev": {
-        "atoum/atoum": "^3.1",
-        "atoum/stubs": "^2.5",
-        "symfony/var-dumper": ">=2.3,<5",
-        "atoum/visibility-extension": "^1.3"
+        "atoum/atoum": "dev-master"
     },
     "config": {
         "bin-dir": "bin"
